@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="generator" content="pandoc">
+  <title>CS 1110/1111 - Lab 0: Lab Introduction and Required Installations</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/style.css">
+<!--<link rel="stylesheet" href="bootstrap.united.min.css" />-->
+</head>
+<body data-new-gr-c-s-check-loaded="8.892.0" data-gr-ext-installed="">
+    <div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <span class="doc-title">CS 1110/1111 – Lab 0: Lab Introduction and Required Installations</span>
+        <ul class="nav pull-right doc-info">
+                              <li><p class="navbar-text"><a href="http://cs1110.cs.virginia.edu/index.html">home</a></p></li>
+          <li><p class="navbar-text"><a href="http://cs1110.cs.virginia.edu/syllabus.html">syllabus</a></p></li>
+          <li><p class="navbar-text"><a href="http://cs1110.cs.virginia.edu/schedule.html">schedule</a></p></li>
+          <li><p class="navbar-text"><a href="https://kytos.cs.virginia.edu/cs1110/">assignments</a></p></li>
+          <li><p class="navbar-text"><a href="http://cs1110.cs.virginia.edu/practice.html">practice</a></p></li>
+          <li><p class="navbar-text"><a href="http://cs1110.cs.virginia.edu/oh.html">OH</a></p></li>
+          <li><p class="navbar-text"><a href="http://cs1110.cs.virginia.edu/faq.html">FAQ</a></p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+    <div class="row">
+            <div id="TOC" class="span3">
+        <div class="well toc">
+        <ul>
+          <li class="nav-header">Table of Contents</li>
+        </ul>
+        <ul>
+        <li><a href="#lab-introduction"><span class="toc-section-number">1</span> Lab Introduction</a>
+        <ul>
+        <li><a href="#lab-expectations"><span class="toc-section-number">1.1</span> Lab Expectations</a></li>
+        <li><a href="#required-technology"><span class="toc-section-number">1.2</span> Required technology</a></li>
+        </ul></li>
+        <li><a href="#installation-guide"><span class="toc-section-number">2</span> Installation Guide</a>
+        <ul>
+        <li><a href="#installing-on-windows"><span class="toc-section-number">2.1</span> Installing on Windows</a></li>
+        <li><a href="#installing-on-mac"><span class="toc-section-number">2.2</span> Installing on Mac</a></li>
+        <li><a href="#installing-on-other-systems"><span class="toc-section-number">2.3</span> Installing On Other Systems</a></li>
+        <li><a href="#set-up-pycharm-and-pygame"><span class="toc-section-number">2.4</span> Set up PyCharm and PyGame</a></li>
+        <li><a href="#installing-and-joining-class-discord"><span class="toc-section-number">2.5</span> Installing and Joining Class Discord</a></li>
+        </ul></li>
+        <li><a href="#submission"><span class="toc-section-number">3</span> Submission</a></li>
+        </ul>
+        </div>
+      </div>
+            <div class="span9">
+      
+<!--        
+<blockquote style="background-color:#fbb; font-size:150%">This page is currently under construction. Assignments have not been activated yet.</blockquote>
+-->
+<!--        
+ <blockquote style="background-color:#fbb; font-size:150%">This page does not represent <a href="/">the most current semester</a> of this course; it is present merely as an archive.</blockquote>
+-->
+<h1 data-number="1" id="lab-introduction"><span class="header-section-number">1</span> Lab Introduction</h1>
+<h2 data-number="1.1" id="lab-expectations"><span class="header-section-number">1.1</span> Lab Expectations</h2>
+<p>Lab is a supplement to the topics that you are learning during 
+lecture. All lab assignments are meant to help you apply class concepts.
+ Therefore, it is mandatory to attend and be fully present during your 
+lab section. Students are expected to complete lab to the best of their 
+ability within the duration of their lab time. Lab time is dedicated to 
+practicing class concepts and for the purposes of completing lab 
+assignments.</p>
+<p>Please note:</p>
+<ul>
+<li><p>You do not need to prepare anything before lab, and you are not expected to spend time outside of lab completing the lab’s task.</p></li>
+<li><p>There are some labs you may not be expected to finish completely,
+ but as long as you actively participate during a lab’s synchronous 
+meeting time, you will earn credit for the lab.</p></li>
+</ul>
+<p><strong>How Lab Will Function</strong><br> Labs are run by TAs. Lab will follow the same general format every week:</p>
+<ul>
+<li><p>Course announcements</p></li>
+<li><p>Lab introduction</p></li>
+<li><p>Time to work on lab</p></li>
+<li><p>Lab submission</p></li>
+</ul>
+<p><strong>Code Coach</strong><br> Each student will be assigned a 
+single “code coach”, a TA from your lab who will provide feedback on 
+your assignments. (If you are a CS 1111 student, you will still be 
+assigned a code coach, but you might not interact with them regularly.) 
+Your code coach’s name will show up on Kytos (the submission system for 
+the class, found under the “assignments” tab). If there is not a name 
+there for your code coach, you have currently not been assigned to one 
+yet. Please support the TAs as they organize this and get to know you.</p>
+<h2 data-number="1.2" id="required-technology"><span class="header-section-number">1.2</span> Required technology</h2>
+<p>For this course, you are expected to have access to the following technologies and tools that will be used in this course:</p>
+<p>Lecture:</p>
+<ul>
+<li><p>Zoom (used for lecture)</p></li>
+<li><p>Discord (used for OHs)</p></li>
+</ul>
+<p>Coding tools (to be installed during this lab):</p>
+<ul>
+<li><p>Python</p></li>
+<li><p>PyCharm</p></li>
+<li><p>PyGame</p></li>
+</ul>
+<p>Forums:</p>
+<ul>
+<li>Piazza (used for questions)</li>
+</ul>
+<h1 data-number="2" id="installation-guide"><span class="header-section-number">2</span> Installation Guide</h1>
+<p>In this lab, we provide the instructions for installing Python, 
+PyCharm, and PyGame. This is an opportunity to make sure these coding 
+tools are installed and working properly on your laptop. We have 
+reserved a section about Discord installation for those that are 
+unfamiliar with it.</p>
+<h2 data-number="2.1" id="installing-on-windows"><span class="header-section-number">2.1</span> Installing on Windows</h2>
+<ol type="1">
+<li><p>Install Python 3.6.4 (If you have a different version of Python, you still must install 3.6.4 separately!):</p>
+<ol type="1">
+<li><p>Download <a href="https://www.python.org/ftp/python/3.6.4/python-3.6.4-amd64.exe">the executable x86-64 installer from python.org</a>.</p></li>
+<li><p>Run the installer.</p></li>
+<li><p>Choose the “Custom Installation” option.</p></li>
+<li><p>If asked, check “Add Python to environment variables” and 
+“Install for all users”; leave all other options at their default 
+values.</p></li>
+</ol></li>
+<li><p>Install PyCharm Community Edition 2020.2.1:</p>
+<ol type="1">
+<li><p>Download <a href="https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&amp;code=PCC">the executable installer from jetbrains.com</a>.</p></li>
+<li><p>Run the installer.</p></li>
+<li><p>If asked, check “Create associations” - “.py”; leave all other options at their default values.</p></li>
+</ol></li>
+<li><p>Set up PyCharm and PyGame; see the cross-platform information <a href="#set-up-pycharm-and-pygame">below</a>.</p></li>
+</ol>
+<h2 data-number="2.2" id="installing-on-mac"><span class="header-section-number">2.2</span> Installing on Mac</h2>
+<ol type="1">
+<li><p>Install Python 3.6.4 (If you have a different version of Python, you still must install 3.6.4 separately!):</p>
+<ol type="1">
+<li><p>Download <a href="https://www.python.org/ftp/python/3.6.4/python-3.6.4-macosx10.6.pkg">the installer from python.org</a>.</p></li>
+<li><p>Run the installer.</p></li>
+<li><p>Choose the “Custom Installation” option.</p></li>
+<li><p>If asked, check “Add Python to environment variables” and 
+“Install for all users”; leave all other options at their default 
+values.</p></li>
+</ol></li>
+<li><p>Install PyCharm Community Edition 2017.3.2:</p>
+<ol type="1">
+<li><p>Download <a href="https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&amp;code=PCC">the dmg disk image from jetbrains.com</a>.</p></li>
+<li><p>Drag the icon to the Applications folder.</p></li>
+</ol></li>
+<li><p>Install prerequisites for PyGame</p>
+<ol type="1">
+<li><p>Download and install <a href="https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg">XQuartz - https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg</a>.</p></li>
+<li><p>Open a Terminal window (<code>/Applications</code> → <code>Utilities</code> → <code>Terminal</code>). In the terminal window, paste the following commands in <strong>one at a time</strong> and run them individually:</p>
+<ol type="1">
+<li><code class="sourceCode bash"><span class="ex">xcode-select</span> --install</code></li>
+<li><code class="sourceCode bash"><span class="ex">ruby</span> -e <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="va">)</span><span class="st">"</span></code></li>
+<li><code class="sourceCode bash"><span class="bu">alias</span> brew=/usr/local/bin/brew</code></li>
+<li><code class="sourceCode bash"><span class="ex">brew</span> install sdl sdl_image sdl_ttf smpeg portmidi libogg libvorbis</code></li>
+<li><code class="sourceCode bash"><span class="ex">brew</span> install sdl_mixer libvorbis</code> (<strong>NOTE:</strong> If this line doesn’t work, try <code>brew install sdl_mixer</code>, but this last command is optional. Feel free to skip it if it is causing issues.)</li>
+</ol></li>
+<li><p>In the Finder, open <code>/Applications</code> → <code>Python 3.6</code> and double-click on the icon for <code>Install Certificates.command</code></p></li>
+</ol></li>
+<li><p>Set up PyCharm and PyGame; see the cross-platform information <a href="#set-up-pycharm-and-pygame">below</a>.</p></li>
+</ol>
+<h2 data-number="2.3" id="installing-on-other-systems"><span class="header-section-number">2.3</span> Installing On Other Systems</h2>
+<p>If you are using a system other than Windows or Mac (Linux, FreeBSD, 
+Haiku, etc.), first off, good for you! In general, installing Python, 
+PyGame, and PyCharm is pretty straightforward on these systems (download
+ the Linux version of PyCharm even if you are using a BSD or the like), 
+but if you have trouble, ask a TA in lab or, if trying to download 
+outside of lab, post what system you are using on Piazza and we’ll help 
+get you set up.</p>
+<h2 data-number="2.4" id="set-up-pycharm-and-pygame"><span class="header-section-number">2.4</span> Set up PyCharm and PyGame</h2>
+<p>There’s a fair bit of set-up, but you should only have to do this once.</p>
+<ol type="1">
+<li><p>Run PyCharm</p></li>
+<li><p>Accept the default options in the various screens that pop up 
+asking you to set up various aspects of PyCharm. These should only 
+appear the first time you run PyCharm.</p></li>
+<li><p>When you reach the welcome screen,</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-splash.png" alt=""><figcaption>PyCharm welcome screen</figcaption>
+</figure>
+<p>set up PyGame and how Pycharm interacts with Python doing the following:</p>
+<ol type="1">
+<li><p>In the “configuration” menu (gear icon), select “Settings” (this is called “Preferences” if you are using a Mac).</p></li>
+<li><p>Go to the “Project Interpreter” option on the left of the screen.</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-interp-setup.png" alt=""><figcaption>Project interpreter options</figcaption>
+</figure></li>
+<li><p>If the “Project Interpreter” drop-down on the top of the screen 
+has a “Python 3” of some kind, select it and skip the indented steps 
+below; <strong>otherwise</strong></p>
+<ol type="1">
+<li><p>Click the gear icon beside the drop-down (top-right corner of the window) and select “Add Local…” from the menu</p></li>
+<li><p>In the pop-up window, on the left chose “System Interpreter”</p></li>
+<li><p>In the drop-down, pick python3.6 if it is present; if not, click the “…” button and find where you installed Python.</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-interp.png" alt=""><figcaption>Project interpreter selection</figcaption>
+</figure></li>
+<li><p>Click OK</p></li>
+</ol></li>
+<li><p>Click the green + either to the top right or bottom left of the list of packages</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-interp-setup.png" alt=""><figcaption>Project interpreter options</figcaption>
+</figure></li>
+<li><p>In the pop-up window, type <code>pygame</code> in the search bar, select “Pygame” in the left-hand list, and click “Install Package”</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-pygame.png" alt=""><figcaption>PyGame installation</figcaption>
+</figure></li>
+<li><p>Wait until an “installation successful” message appears</p></li>
+<li><p>Click “Apply” and “OK” in each window until back in the welcome screen</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-splash.png" alt=""><figcaption>Welcome screen</figcaption>
+</figure></li>
+</ol></li>
+<li><p>Click “Create New Project”</p></li>
+<li><p>In the new project window</p>
+<ol type="1">
+<li><p>Set the Location to some place you can find in your OS’s file browser; suggested:</p>
+<ul>
+<li>Windows: <code>C:\Users\</code><em>your-user-name-on-your-computer</em><code>\Desktop\cs1110</code></li>
+<li>OS X: <code>/Users/</code><em>your-user-name-on-your-computer</em><code>/Desktop/cs1110</code></li>
+</ul></li>
+<li><p>Expand the “Project Interpreter” with the little triangle and 
+pick the “Existing Interpreter” option, with Python 3.6 as the 
+interpreter.</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-newproject.png" alt=""><figcaption>New project setup window</figcaption>
+</figure></li>
+<li><p>Click the Create button</p></li>
+</ol></li>
+<li><p>Create a new Python file by right-clicking (control-click if you 
+only have one button) on the cs1110 folder in the Project pane on the 
+left side of the window, then pick New → Python File</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-newfile.png" alt=""><figcaption>New file menu</figcaption>
+</figure></li>
+<li><p>Type <code>setup_test.py</code> in the new file pop-up</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-newfile-test.png" alt=""><figcaption>New file pop-up</figcaption>
+</figure></li>
+<li><p>In the editor window, type or paste the following:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> pygame</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="im">import</span> urllib.request</span>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a>pygame.init()</span>
+<span id="cb1-5"><a href="#cb1-5"></a>urllib.request.urlopen(<span class="st">'https://cs1110.cs.virginia.edu'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="bu">print</span>(<span class="st">'Hello, world!'</span>)</span></code></pre></div></li>
+<li><p>Right-click in white space in the editor window (not on any text) and select “Run setup_test” from the drop-down menu.</p>
+<figure>
+<img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-run.png" alt=""><figcaption>Run menu</figcaption>
+</figure></li>
+<li><p>If you see “Hello, world!” in the second line of the bottom of the window, everything is set up correctly!</p>
+<p><img src="CS%201110_1111%20-%20Lab%200%20Lab%20Introduction%20and%20Required%20Installations_files/pycharm-run-success.png" alt="Desired run results"> If this does not work correctly, remove the ‘s’ from ‘https://….’ - use</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>urllib.request.urlopen(<span class="st">'http://cs1110.cs.virginia.edu'</span>)</span></code></pre></div>
+<p>If you see something else, or if something went wrong along the way, ask a TA for help.</p></li>
+</ol>
+<h2 data-number="2.5" id="installing-and-joining-class-discord"><span class="header-section-number">2.5</span> Installing and Joining Class Discord</h2>
+<p>We recommend downloading the standalone desktop application over 
+using a web browser so you do not accidently lose access to your account
+ as it will automatically create an unclaimed guest account for you when
+ using Discord in your web browser.</p>
+<p>For Macs:</p>
+<ol type="1">
+<li><p>Download the <a href="https://discord.com/api/download?platform=osx">Discord installer</a>.</p></li>
+<li><p>Run the installer</p></li>
+<li><p>Drag and drop the Discord app into your Applications folder.</p></li>
+</ol>
+<p>For Windows:</p>
+<ol type="1">
+<li><p>Download the <a href="https://discord.com/api/download?platform=win">Discord executable</a>.</p></li>
+<li><p>Run the executable</p></li>
+</ol>
+<p>Joining the class discord server:</p>
+<ol type="1">
+<li><p>Click the + icon on the left hand bar. If you hover over the icon, it should say “Add a Server”.</p></li>
+<li><p>Click on the “Join a Server” button at the bottom and paste the invite link: <a href="http://cs1110.cs.virginia.edu/link">link</a>.</p></li>
+<li><p>Click Join Server</p></li>
+</ol>
+<h1 data-number="3" id="submission"><span class="header-section-number">3</span> Submission</h1>
+<p>Please fill out the following Google Form to confirm that you have 
+successfully installed Python, PyCharm, PyGame, and Discord. We want 
+everyone to be properly set up for the rest of the semester by the end 
+of the first week.</p>
+<p>Google Form submission link: <a href="https://forms.gle/ToJ9fXJmv9Xp3p7DA">https://forms.gle/ToJ9fXJmv9Xp3p7DA</a>.</p>
+            </div>
+    </div>
+  </div>
+  <footer>
+     Copyright © 2021 Luther Tychonievich, Nate Brunelle, and Raymond Pettit.
+     <br>
+     Last updated 2021-02-04 10:01
+  </footer>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
