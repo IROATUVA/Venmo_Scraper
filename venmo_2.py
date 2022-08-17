@@ -58,7 +58,7 @@ def scrape():
 		# 	continue
 		# this is a restrictive version of the current code
 		
-		if 'diplo' in descr or '+1' in descr or 'plus 1' in descr or 'delegation' in descr or 'delegate' in descr or 'vamun' in descr or 'register' in descr or 'registration' in descr or 'donation' in descr or 'vics' in descr or 'AAPI' in descr: 
+		if 'diplo' in descr or '+1' in descr or 'plus 1' in descr or 'delegation' in descr or 'merch' in descr or 'delegate' in descr or 'vamun' in descr or 'register' in descr or 'registration' in descr or 'donation' in descr or 'vics' in descr or 'AAPI' in descr: 
 		#Do not count diplo ball or VAMUN payments or other stuff as dues payments!
 			continue
 
